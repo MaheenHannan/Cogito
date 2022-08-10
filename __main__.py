@@ -16,7 +16,7 @@ image_name = repo.repository_url
 registry_info = repo.registry_id.apply(getRegistryInfo)
 
 image = docker.Image('my-image',
-    build='src/web',
+    build='web',
     image_name=image_name,
     registry=registry_info,
 )
