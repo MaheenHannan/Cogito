@@ -1,6 +1,10 @@
 name: Pulumi
 on:
   push:
+    paths:
+        - src/web/**
+    paths-ignore:
+        - src/web/README.md
     branches:
       - main
 jobs:
