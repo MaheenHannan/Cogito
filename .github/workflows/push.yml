@@ -2,7 +2,7 @@ name: Pulumi
 on:
   push:
     paths:
-        - src/web/**
+        - "src/web/**"
         - "!src/web/README.md"
     branches:
       - main
